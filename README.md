@@ -38,6 +38,20 @@ Create a db_bank.json file with some data
             "birthDay":"15",
             "birthYear":"1987"
 
+        },
+        {
+            "id":1,
+            "nameFirst":"Kenny",
+            "nameLast":"Johnson",
+            "address":"25740 W Newberry Rd",
+            "city":"Newberry",
+            "state":"FL",
+            "zip":"32669",
+            "phoneNumber":"(352) 472-1300",
+            "birthMonth":"04",
+            "birthDay":"21",
+            "birthYear":"1971"
+
         }
     ]
 }
@@ -54,7 +68,7 @@ $ json-server --watch db_bank.json
   Done
 
   Resources
-  http://localhost:3000/people
+  http://localhost:3000/customer
 
   Home
   http://localhost:3000
