@@ -1,8 +1,18 @@
 {
-    "people":[
+    "customer":[
         {
             "id":0,
-            "name":"John"
+            "nameFirst":"John",
+            "nameLast":"Smith",
+            "address":"503 Fire Monument Rd",
+            "city":"Hinckley",
+            "state":"MN",
+            "zip":"55037",
+            "phoneNumber":"(320) 384-7939",
+            "birthMonth":"09",
+            "birthDay":"15",
+            "birthYear":"1987"
+
         }
     ]
 }
