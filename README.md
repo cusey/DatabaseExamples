@@ -3,7 +3,11 @@
 # ServerJsonExamples
 
 ## Built With
+* Toad Data Modeler
+* Toad for Oracle   
 * server-json 
+* Hortonworks
+
 
 ## Authors
 * John Cusey - CuseyHub  
