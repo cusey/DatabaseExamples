@@ -91,7 +91,7 @@ CREATE TABLE `branch`
   `branch_id` Char(20) NOT NULL,
   `branch_name` Char(20),
   `phone_number` Char(20),
-  `Attribute1` Char(20)
+  `open_hours_id` Char(20)
 )
 ;
 
@@ -279,7 +279,7 @@ ALTER TABLE `account` ADD CONSTRAINT `Account Type` FOREIGN KEY (`type_code`) RE
 ;
 
 
-ALTER TABLE `branch` ADD CONSTRAINT `Branch Open Hours` FOREIGN KEY (`Attribute1`) REFERENCES `open_hours` (`open_hours_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+ALTER TABLE `branch` ADD CONSTRAINT `Branch Open Hours` FOREIGN KEY (`open_hours_id`) REFERENCES `open_hours` (`open_hours_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
 
