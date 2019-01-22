@@ -1,6 +1,6 @@
 ﻿/*
 Created: 1/14/2019
-Modified: 1/21/2019
+Modified: 1/22/2019
 Model: JerseyNationalBank
 Database: MySQL 5.7
 */
@@ -35,14 +35,16 @@ ALTER TABLE `person` ADD UNIQUE `social_security_number` (`social_security_numbe
 
 CREATE TABLE `employee`
 (
-  `branch_id` Char(20) NOT NULL,
   `person_id` Char(20) NOT NULL,
   `salary` Char(20),
-  `open_hours_name` Char(20) NOT NULL
+  `branch_id` Char(20)
 )
 ;
 
-ALTER TABLE `employee` ADD PRIMARY KEY (`person_id`,`branch_id`,`open_hours_name`)
+CREATE INDEX `employee_index` ON `employee` (`branch_id`)
+;
+
+ALTER TABLE `employee` ADD PRIMARY KEY (`person_id`)
 ;
 
 -- Table customer
@@ -101,7 +103,7 @@ CREATE TABLE `branch`
 )
 ;
 
-ALTER TABLE `branch` ADD PRIMARY KEY (`branch_id`,`open_hours_name`)
+ALTER TABLE `branch` ADD PRIMARY KEY (`branch_id`)
 ;
 
 ALTER TABLE `branch` ADD UNIQUE `open_hours_name` (`open_hours_name`)
@@ -122,7 +124,7 @@ CREATE TABLE `open_hours`
 CREATE INDEX `open_hours_name` ON `open_hours` (`open_hours_name`)
 ;
 
-ALTER TABLE `open_hours` ADD PRIMARY KEY (`open_hours_name`,`open_hours_id`)
+ALTER TABLE `open_hours` ADD PRIMARY KEY (`open_hours_id`)
 ;
 
 -- Table email
@@ -263,10 +265,6 @@ ALTER TABLE `phone_employee` ADD CONSTRAINT `Phone Number` FOREIGN KEY (`phone_i
 ;
 
 
-ALTER TABLE `employee` ADD CONSTRAINT `Branch Employee Work At` FOREIGN KEY (`branch_id`, `open_hours_name`) REFERENCES `branch` (`branch_id`, `open_hours_name`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
 ALTER TABLE `email` ADD CONSTRAINT `Person Email` FOREIGN KEY (`person_id`) REFERENCES `person` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
@@ -303,4 +301,7 @@ ALTER TABLE `open_hours` ADD CONSTRAINT `Open Hours` FOREIGN KEY (`open_hours_na
 ;
 
 
-open_hours
+ALTER TABLE `employee` ADD CONSTRAINT `Worker` FOREIGN KEY (`branch_id`) REFERENCES `branch` (`branch_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+
