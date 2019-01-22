@@ -92,6 +92,11 @@ CREATE TABLE `branch`
   `branch_id` Char(20) NOT NULL,
   `branch_name` Char(20),
   `phone_number` Char(20),
+  `address1` Char(20),
+  `address2` Char(20),
+  `city` Char(20),
+  `state` Char(20),
+  `zip_code` Char(20),
   `open_hours_name` Char(20) NOT NULL
 )
 ;
@@ -298,3 +303,4 @@ ALTER TABLE `open_hours` ADD CONSTRAINT `Open Hours` FOREIGN KEY (`open_hours_na
 ;
 
 
+open_hours

@@ -1,0 +1,1 @@
+INSERT INTO bank.branch (branch_id, branch_name, phone_number, address1, address2, city, state, zip_code, open_hours_name) VALUES ('001', 'Minnepolis Dowtown W', '(612) 667 - 8970', '80 South 8th St', 'suit 493', 'Minneapolis', 'MN', '55402', 'STANDARD');
