@@ -37,11 +37,12 @@ CREATE TABLE `employee`
 (
   `branch_id` Char(20) NOT NULL,
   `person_id` Char(20) NOT NULL,
-  `salary` Char(20)
+  `salary` Char(20),
+  `open_hours_name` Char(20) NOT NULL
 )
 ;
 
-ALTER TABLE `employee` ADD PRIMARY KEY (`person_id`,`branch_id`)
+ALTER TABLE `employee` ADD PRIMARY KEY (`person_id`,`branch_id`,`open_hours_name`)
 ;
 
 -- Table customer
@@ -91,11 +92,14 @@ CREATE TABLE `branch`
   `branch_id` Char(20) NOT NULL,
   `branch_name` Char(20),
   `phone_number` Char(20),
-  `open_hours_id` Char(20)
+  `open_hours_name` Char(20) NOT NULL
 )
 ;
 
-ALTER TABLE `branch` ADD PRIMARY KEY (`branch_id`)
+ALTER TABLE `branch` ADD PRIMARY KEY (`branch_id`,`open_hours_name`)
+;
+
+ALTER TABLE `branch` ADD UNIQUE `open_hours_name` (`open_hours_name`)
 ;
 
 -- Table open_hours
@@ -103,18 +107,17 @@ ALTER TABLE `branch` ADD PRIMARY KEY (`branch_id`)
 CREATE TABLE `open_hours`
 (
   `open_hours_id` Char(20) NOT NULL,
-  `open_hours_type` Char(20) NOT NULL,
+  `open_hours_name` Char(20) NOT NULL,
   `open_time` Char(20),
   `close_time` Char(20),
-  `day_of_week` Char(20),
-  `branch_id` Char(20)
+  `day_of_week` Char(20)
 )
 ;
 
-CREATE INDEX `index_open_hours_name` ON `open_hours` (`open_hours_type`)
+CREATE INDEX `open_hours_name` ON `open_hours` (`open_hours_name`)
 ;
 
-ALTER TABLE `open_hours` ADD PRIMARY KEY (`open_hours_id`)
+ALTER TABLE `open_hours` ADD PRIMARY KEY (`open_hours_name`,`open_hours_id`)
 ;
 
 -- Table email
@@ -255,7 +258,7 @@ ALTER TABLE `phone_employee` ADD CONSTRAINT `Phone Number` FOREIGN KEY (`phone_i
 ;
 
 
-ALTER TABLE `employee` ADD CONSTRAINT `Branch Employee Work At` FOREIGN KEY (`branch_id`) REFERENCES `branch` (`branch_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+ALTER TABLE `employee` ADD CONSTRAINT `Branch Employee Work At` FOREIGN KEY (`branch_id`, `open_hours_name`) REFERENCES `branch` (`branch_id`, `open_hours_name`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
 
@@ -279,10 +282,6 @@ ALTER TABLE `account` ADD CONSTRAINT `Account Type` FOREIGN KEY (`type_code`) RE
 ;
 
 
-ALTER TABLE `branch` ADD CONSTRAINT `Branch Open Hours` FOREIGN KEY (`open_hours_id`) REFERENCES `open_hours` (`open_hours_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
 ALTER TABLE `email` ADD CONSTRAINT `Domain Part of the Email Address` FOREIGN KEY (`email_domain_id`) REFERENCES `email_domin` (`email_domain_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
@@ -295,7 +294,7 @@ ALTER TABLE `Login` ADD CONSTRAINT `Login to the Website` FOREIGN KEY (`person_i
 ;
 
 
-ALTER TABLE `open_hours` ADD CONSTRAINT `Bank Hours` FOREIGN KEY (`branch_id`) REFERENCES `branch` (`branch_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+ALTER TABLE `open_hours` ADD CONSTRAINT `Open Hours` FOREIGN KEY (`open_hours_name`) REFERENCES `branch` (`open_hours_name`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
 
