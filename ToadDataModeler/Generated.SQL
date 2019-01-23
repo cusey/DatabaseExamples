@@ -106,9 +106,6 @@ CREATE TABLE `branch`
 ALTER TABLE `branch` ADD PRIMARY KEY (`branch_id`)
 ;
 
-ALTER TABLE `branch` ADD UNIQUE `open_hours_name` (`open_hours_name`)
-;
-
 -- Table open_hours
 
 CREATE TABLE `open_hours`
@@ -117,11 +114,12 @@ CREATE TABLE `open_hours`
   `open_hours_name` Char(20) NOT NULL,
   `open_time` Char(20),
   `close_time` Char(20),
-  `day_of_week` Char(20)
+  `day_of_week` Char(20),
+  `branch_id` Char(20)
 )
 ;
 
-CREATE INDEX `open_hours_name` ON `open_hours` (`open_hours_name`)
+CREATE INDEX `open_hours_name` ON `open_hours` (`branch_id`)
 ;
 
 ALTER TABLE `open_hours` ADD PRIMARY KEY (`open_hours_id`)
@@ -297,7 +295,7 @@ ALTER TABLE `Login` ADD CONSTRAINT `Login to the Website` FOREIGN KEY (`person_i
 ;
 
 
-ALTER TABLE `open_hours` ADD CONSTRAINT `Open Hours` FOREIGN KEY (`open_hours_name`) REFERENCES `branch` (`open_hours_name`) ON DELETE RESTRICT ON UPDATE RESTRICT
+ALTER TABLE `open_hours` ADD CONSTRAINT `Open Hours` FOREIGN KEY (`branch_id`) REFERENCES `branch` (`branch_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
 
