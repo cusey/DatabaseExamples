@@ -6,7 +6,6 @@
 * Toad Data Modeler
 * Toad for Oracle   
 * server-json 
-* Hortonworks
 
 ## File Location   
 
