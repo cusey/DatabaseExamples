@@ -9,8 +9,8 @@
 
 ## File Location   
 
-Order | Folders |File|Description
-----------| ----------| -------------------------------------------
+Order | Folders | File | Description   
+-- | ----------| ----------| -------------------------------------------    
 1 | MySql | createDB.sql | SQL scripts to generate Datadata.
 2 | ToadDataModeler| Generate.sql | SQL script to generate TABLES, PRIMARY KEY, FOREIGN KEY, INDEX, and CONSTRAINT
 3 | DataGrip/SQL| ```bank_*.sql``` | SQL scripts to generate TABLES data.
