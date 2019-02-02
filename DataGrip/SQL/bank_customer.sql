@@ -1,5 +1,3 @@
-INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('014', '123456776');
-INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('015', '123456775');
 INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('016', '123456774');
 INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('017', '123456773');
 INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('018', '123456772');
@@ -27,4 +25,6 @@ INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('039', '123456752
 INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('040', '123456751');
 INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('041', '123456750');
 INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('042', '123456749');
-INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('043', '123456748');
+INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('043', '123456750');
+INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('044', '123456751');
+INSERT INTO bank.customer (person_id, cutomert_number) VALUES ('045', '123456752');
