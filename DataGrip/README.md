@@ -1,4 +1,5 @@
 # Order to Run Scripts
+The main table is person
 ## BLUE AREA
 1. bank_branch 
 2. bank_open_hours
@@ -10,3 +11,4 @@
 2. bank_phone
 3. bank_phone_employee
 4. bank_email_domin
+5. bank_email
