@@ -1,19 +1,20 @@
 ![CuseyHub](https://github.com/cusey/ImageForWiki/blob/master/Logos/CuseyHub_Banner_Small.jpg)
 
-# ServerJsonExamples
+# Database Examples
 
 ## Built With
 * Toad Data Modeler
 * Toad for Oracle   
 * server-json 
-* Hortonworks
 
+## File Location   
 
-## Authors
-* John Cusey - CuseyHub  
+Folders |File|Description
+----------| ----------| -------------------------------------------
+DataGrip/SQL| ```bank_*.sql``` | SQL scripts to generate TABLES data.
+ToadDataModeler| Generate.sql | SQL script to generate TABLES, PRIMARY KEY, FOREIGN KEY, INDEX, and CONSTRAINT
+ToadDataModeler| JerseyNationalBank.jpeg |Entity Relationship Diagram (ERD)
 
-## License   
-This project is licensed under the MIT License
 
 # MySQL   
 
@@ -37,4 +38,8 @@ Start JSON Server
 ```
 ~/Desktop/server/ServerJsonExamples$ json-server --watch db_bank.json
 ```
+## Authors
+* John Cusey - CuseyHub  
 
+## License   
+This project is licensed under the MIT License
