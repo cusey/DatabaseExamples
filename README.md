@@ -17,12 +17,6 @@ ToadDataModeler| Generate.sql | SQL script to generate TABLES, PRIMARY KEY, FORE
 ToadDataModeler| JerseyNationalBank.jpeg |Entity Relationship Diagram (ERD)
 
 
-## Authors
-* John Cusey - CuseyHub  
-
-## License   
-This project is licensed under the MIT License
-
 # MySQL   
 
 First you need to ceate a scheme   
@@ -45,4 +39,8 @@ Start JSON Server
 ```
 ~/Desktop/server/ServerJsonExamples$ json-server --watch db_bank.json
 ```
+## Authors
+* John Cusey - CuseyHub  
 
+## License   
+This project is licensed under the MIT License
