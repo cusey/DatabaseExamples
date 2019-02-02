@@ -132,6 +132,7 @@ CREATE TABLE `email`
   `email_id` Int(11) NOT NULL,
   `person_id` Char(20) NOT NULL,
   `is_primary` Char(1),
+  `email` Char(20),
   `email_domain_id` Char(20)
 )
 ;

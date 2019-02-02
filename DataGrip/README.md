@@ -9,3 +9,4 @@
 1. bank_phone_area_code
 2. bank_phone
 3. bank_phone_employee
+4. bank_email_domin
