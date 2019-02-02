@@ -1,11 +1,11 @@
 # Order to Run Scripts
-The main table is person
+## GREEN AREA (THE MAIN TABLE)
+1. bank_person
 ## BLUE AREA
 1. bank_branch 
 2. bank_open_hours
-3. bank_person
-4. bank_employee
-5. bank_customer
+3. bank_employee
+4. bank_customer
 ## YELLOW AREA
 1. bank_phone_area_code
 2. bank_phone
