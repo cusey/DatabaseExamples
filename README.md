@@ -7,13 +7,13 @@
 * Toad for Oracle   
 * server-json 
 
-## File Location   
+## File Location  of SQL Scripts
 
-Order | Folders | File | Description   
+Run Order | Folders | File | Description   
 -- | ----------| ----------| -------------------------------------------    
 1 | MySql | createDB.sql | SQL scripts to generate Database.
 2 | ToadDataModeler| Generate.sql | SQL script to generate TABLES, PRIMARY KEY, FOREIGN KEY, INDEX, and CONSTRAINT
-3 | DataGrip/SQL| ```bank_*.sql``` | SQL scripts to generate TABLES data.
+3 | DataGrip/SQL| ```bank_*.sql``` | SQL scripts to generate TABLES data. Look at README file for order to run there scripts
 
 ToadDataModeler| JerseyNationalBank.jpeg |Entity Relationship Diagram (ERD)
 
