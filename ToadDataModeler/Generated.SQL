@@ -1,6 +1,6 @@
 ﻿/*
 Created: 1/14/2019
-Modified: 1/22/2019
+Modified: 2/1/2019
 Model: JerseyNationalBank
 Database: MySQL 5.7
 */
@@ -76,8 +76,8 @@ ALTER TABLE `phone_employee` ADD PRIMARY KEY (`person_id`,`phone_id`)
 CREATE TABLE `phone`
 (
   `phone_id` Char(20) NOT NULL,
-  `telephone_number` Char(20),
-  `telephone_area_code` Char(20)
+  `line_number` Char(4),
+  `phone_area_code_id` Char(20)
 )
 ;
 
@@ -244,6 +244,28 @@ CREATE TABLE `Login`
 ALTER TABLE `Login` ADD PRIMARY KEY (`person_id`)
 ;
 
+-- Table phone_area_code
+
+CREATE TABLE `phone_area_code`
+(
+  `phone_area_code_id` Char(20) NOT NULL,
+  `area_code` Char(3) NOT NULL,
+  `prefix` Char(3) NOT NULL
+)
+;
+
+ALTER TABLE `phone_area_code` ADD PRIMARY KEY (`phone_area_code_id`)
+;
+
+ALTER TABLE `phone_area_code` ADD UNIQUE `phone_area_code_id` (`phone_area_code_id`)
+;
+
+ALTER TABLE `phone_area_code` ADD UNIQUE `area_code` (`area_code`)
+;
+
+ALTER TABLE `phone_area_code` ADD UNIQUE `prefix` (`prefix`)
+;
+
 -- Create foreign keys (relationships) section ------------------------------------------------- 
 
 
@@ -300,6 +322,14 @@ ALTER TABLE `open_hours` ADD CONSTRAINT `Open Hours` FOREIGN KEY (`branch_id`) R
 
 
 ALTER TABLE `employee` ADD CONSTRAINT `Worker` FOREIGN KEY (`branch_id`) REFERENCES `branch` (`branch_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+
+ALTER TABLE `phone` ADD CONSTRAINT `Relationship1` FOREIGN KEY (`phone_area_code_id`) REFERENCES `phone_area_code` (`phone_area_code_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+
+ALTER TABLE `phone` ADD CONSTRAINT `area_code` FOREIGN KEY (`phone_area_code_id`) REFERENCES `phone_area_code` (`phone_area_code_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
 
