@@ -14,6 +14,7 @@ Folders |File|Description
 ----------| ----------| -------------------------------------------
 DataGrip/SQL| ```bank_*.sql``` | SQL scripts to generate TABLES data.
 ToadDataModeler| Generate.sql | SQL script to generate TABLES, PRIMARY KEY, FOREIGN KEY, INDEX, and CONSTRAINT
+ToadDataModeler| JerseyNationalBank.jpeg |Entity Relationship Diagram (ERD)
 
 
 ## Authors
