@@ -10,7 +10,7 @@
 3. bank_employee     
 
 ### YELLOW TABLE CATEGORIES      
-####Contact (CONTACT METHOD - PHONE, EMAIL and send QUESTIONS)      
+#### Contact (CONTACT METHOD - PHONE, EMAIL and send QUESTIONS)      
 1. bank_phone_area_code    
 2. bank_phone     
 3. bank_phone_employee    
@@ -18,5 +18,5 @@
 5. bank_email     
 
 ### PURPLE TABLE CATEGORIES     
-####Customer (CUSTOMER - LOGIN into customer webpage, CREDIT CARD, saving/credit ACCOUTs, and ACCOUNT TYPES )     
+#### Customer (CUSTOMER - LOGIN into customer webpage, CREDIT CARD, saving/credit ACCOUTs, and ACCOUNT TYPES )     
 1. bank_customer    
