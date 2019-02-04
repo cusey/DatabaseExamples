@@ -15,7 +15,10 @@
 2. bank_phone     
 3. bank_phone_employee    
 4. bank_email_domin    
-5. bank_email     
+5. bank_email  
+6. bank_question_category  
+7. bank_answer 
+8. bank_questions
 
 ### PURPLE TABLE CATEGORIES     
 #### Customer (CUSTOMER - LOGIN into customer webpage, CREDIT CARD, saving/credit ACCOUTs, and ACCOUNT TYPES )     

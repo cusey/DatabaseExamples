@@ -1,0 +1,4 @@
+INSERT INTO bank.question_category (question_category_id, category_name, sub_category_name) VALUES ('AM_BC', 'Asset Management', 'Bank Custodians');
+INSERT INTO bank.question_category (question_category_id, category_name, sub_category_name) VALUES ('AM_CIF', 'Asset Management', 'Collective Investment Funds');
+INSERT INTO bank.question_category (question_category_id, category_name, sub_category_name) VALUES ('CC_CCD', 'Credit Cards', 'Credit Card Disputes');
+INSERT INTO bank.question_category (question_category_id, category_name, sub_category_name) VALUES ('CC_CCF', 'Credit Cards', 'Credit Card Fees');

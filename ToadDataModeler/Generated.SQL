@@ -1,6 +1,6 @@
 ﻿/*
 Created: 1/14/2019
-Modified: 2/3/2019
+Modified: 2/4/2019
 Model: JerseyNationalBank
 Database: MySQL 5.7
 */
@@ -164,8 +164,8 @@ CREATE TABLE `questions`
 (
   `person_id` Char(20) NOT NULL,
   `questions_id` Char(20),
-  `statement` Char(20),
-  `statement_create_date` Char(20),
+  `statement` Char(225),
+  `statement_create_date` Date,
   `question_category_id` Char(20),
   `answer_id` Char(20)
 )
@@ -185,7 +185,8 @@ ALTER TABLE `questions` ADD PRIMARY KEY (`person_id`)
 CREATE TABLE `question_category`
 (
   `question_category_id` Char(20) NOT NULL,
-  `category_name` Char(20)
+  `category_name` Char(50) NOT NULL,
+  `sub_category_name` Char(100) NOT NULL
 )
 ;
 
@@ -275,7 +276,7 @@ ALTER TABLE `phone_area_code` ADD UNIQUE `prefix` (`prefix`)
 CREATE TABLE `answer`
 (
   `answer_id` Char(20) NOT NULL,
-  `statement` Char(100),
+  `statement` Char(225),
   `responce_date` Date
 )
 ;

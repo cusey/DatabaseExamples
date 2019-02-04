@@ -1,0 +1,8 @@
+INSERT INTO bank.answer (answer_id, statement, responce_date) VALUES ('001', 'You must notify the bank by notice in writing.', '2019-02-04');
+INSERT INTO bank.answer (answer_id, statement, responce_date) VALUES ('002', 'Generally, if you have filed a proper billing dispute with the bank no.', '2019-02-04');
+INSERT INTO bank.answer (answer_id, statement, responce_date) VALUES ('003', 'A bank custodian is responsible for maintaining the safety of clients'' assets held at one of the custodian''s premises and outside depository.', '2019-02-04');
+INSERT INTO bank.answer (answer_id, statement, responce_date) VALUES ('004', 'A bank custodian that provides core domestic custody services typically settles trades and reporting services.', '2019-02-04');
+INSERT INTO bank.answer (answer_id, statement, responce_date) VALUES ('005', 'No. The funds invested in a CIF are not guaranteed either by the bank offering the fund or by the FDIC', '2019-02-04');
+INSERT INTO bank.answer (answer_id, statement, responce_date) VALUES ('006', 'A CIF is established and maintained in accordance with a written plan.', '2019-02-04');
+INSERT INTO bank.answer (answer_id, statement, responce_date) VALUES ('007', 'Yes, if your payment is late.', '2019-02-04');
+INSERT INTO bank.answer (answer_id, statement, responce_date) VALUES ('008', 'The bank can only charge you an over-the-limit fee if you have not agreed to participate in its over-the-limit coverage program.', '2019-02-04');
