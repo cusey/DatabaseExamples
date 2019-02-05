@@ -1,347 +1,3 @@
-CREATE SCHEMA `bank` ;
-
-CREATE TABLE `person`
-(
-  `person_id` Char(20) NOT NULL,
-  `start_date` Date,
-  `name_first` Char(20),
-  `name_last` Char(20),
-  `name_middle` Char(20),
-  `titlle` Char(2),
-  `social_security_number` Int(9) NOT NULL
-)
-;
-
-ALTER TABLE `person` ADD PRIMARY KEY (`person_id`)
-;
-
-ALTER TABLE `person` ADD UNIQUE `person_id` (`person_id`)
-;
-
-ALTER TABLE `person` ADD UNIQUE `social_security_number` (`social_security_number`)
-;
-
--- Table employee
-
-CREATE TABLE `employee`
-(
-  `person_id` Char(20) NOT NULL,
-  `salary` Char(20),
-  `branch_id` Char(20)
-)
-;
-
-CREATE INDEX `employee_index` ON `employee` (`branch_id`)
-;
-
-ALTER TABLE `employee` ADD PRIMARY KEY (`person_id`)
-;
-
--- Table customer
-
-CREATE TABLE `customer`
-(
-  `person_id` Char(20) NOT NULL,
-  `cutomert_number` Char(20)
-)
-;
-
-ALTER TABLE `customer` ADD PRIMARY KEY (`person_id`)
-;
-
--- Table phone_employee
-
-CREATE TABLE `phone_employee`
-(
-  `person_id` Char(20) NOT NULL,
-  `phone_id` Char(20) NOT NULL
-)
-;
-
-ALTER TABLE `phone_employee` ADD PRIMARY KEY (`person_id`,`phone_id`)
-;
-
--- Table phone
-
-CREATE TABLE `phone`
-(
-  `phone_id` Char(20) NOT NULL,
-  `line_number` Char(4),
-  `phone_area_code_id` Char(20)
-)
-;
-
-ALTER TABLE `phone` ADD PRIMARY KEY (`phone_id`)
-;
-
-ALTER TABLE `phone` ADD UNIQUE `phone_id` (`phone_id`)
-;
-
--- Table branch
-
-CREATE TABLE `branch`
-(
-  `branch_id` Char(20) NOT NULL,
-  `branch_name` Char(20),
-  `phone_number` Char(20),
-  `address1` Char(20),
-  `address2` Char(20),
-  `city` Char(20),
-  `state` Char(20),
-  `zip_code` Char(20),
-  `open_hours_name` Char(20) NOT NULL
-)
-;
-
-ALTER TABLE `branch` ADD PRIMARY KEY (`branch_id`)
-;
-
--- Table open_hours
-
-CREATE TABLE `open_hours`
-(
-  `open_hours_id` Char(20) NOT NULL,
-  `open_hours_name` Char(20) NOT NULL,
-  `open_time` Char(20),
-  `close_time` Char(20),
-  `day_of_week` Char(20),
-  `branch_id` Char(20)
-)
-;
-
-CREATE INDEX `open_hours_name` ON `open_hours` (`branch_id`)
-;
-
-ALTER TABLE `open_hours` ADD PRIMARY KEY (`open_hours_id`)
-;
-
--- Table email
-
-CREATE TABLE `email`
-(
-  `email_id` Int(11) NOT NULL,
-  `person_id` Char(20) NOT NULL,
-  `is_primary` Char(1),
-  `email` Char(20),
-  `email_domain_id` Char(20)
-)
-;
-
-CREATE INDEX `email_domain_index` ON `email` (`email_domain_id`)
-;
-
-ALTER TABLE `email` ADD PRIMARY KEY (`email_id`,`person_id`)
-;
-
--- Table email_domin
-
-CREATE TABLE `email_domin`
-(
-  `email_domain_id` Char(20) NOT NULL,
-  `domain` Char(20)
-)
-;
-
-ALTER TABLE `email_domin` ADD PRIMARY KEY (`email_domain_id`)
-;
-
-ALTER TABLE `email_domin` ADD UNIQUE `email_domain_id` (`email_domain_id`)
-;
-
--- Table questions
-
-CREATE TABLE `questions`
-(
-  `person_id` Char(20) NOT NULL,
-  `questions_id` Char(20),
-  `statement` Char(225),
-  `statement_create_date` Date,
-  `question_category_id` Char(20),
-  `answer_id` Char(20)
-)
-;
-
-CREATE INDEX `question_category_index` ON `questions` (`question_category_id`)
-;
-
-CREATE INDEX `IX_Relationship2` ON `questions` (`answer_id`)
-;
-
-ALTER TABLE `questions` ADD PRIMARY KEY (`person_id`)
-;
-
--- Table question_category
-
-CREATE TABLE `question_category`
-(
-  `question_category_id` Char(20) NOT NULL,
-  `category_name` Char(50) NOT NULL,
-  `sub_category_name` Char(100) NOT NULL
-)
-;
-
-ALTER TABLE `question_category` ADD PRIMARY KEY (`question_category_id`)
-;
-
-ALTER TABLE `question_category` ADD UNIQUE `question_category_id` (`question_category_id`)
-;
-
--- Table credit_card
-
-CREATE TABLE `credit_card`
-(
-  `person_id` Char(20) NOT NULL,
-  `credit_card_number` Char(16) NOT NULL,
-  `expire_date` Date NOT NULL,
-  `code` Char(3) NOT NULL
-)
-;
-
-ALTER TABLE `credit_card` ADD PRIMARY KEY (`person_id`)
-;
-
-ALTER TABLE `credit_card` ADD UNIQUE `credit_card_number` (`credit_card_number`)
-;
-
--- Table account
-
-CREATE TABLE `account`
-(
-  `person_id` Char(20) NOT NULL,
-  `amount` Decimal(10,2),
-  `type_code` Char(20)
-)
-;
-
-ALTER TABLE `account` ADD PRIMARY KEY (`person_id`)
-;
-
--- Table account_types
-
-CREATE TABLE `account_types`
-(
-  `type_code` Char(20) NOT NULL,
-  `account_display_name` Char(20)
-)
-;
-
-ALTER TABLE `account_types` ADD PRIMARY KEY (`type_code`)
-;
-
--- Table Login
-
-CREATE TABLE `Login`
-(
-  `person_id` Char(20) NOT NULL,
-  `user_name` Char(20),
-  `password` Char(20)
-)
-;
-
-ALTER TABLE `Login` ADD PRIMARY KEY (`person_id`)
-;
-
--- Table phone_area_code
-
-CREATE TABLE `phone_area_code`
-(
-  `phone_area_code_id` Char(20) NOT NULL,
-  `area_code` Char(3) NOT NULL,
-  `prefix` Char(3) NOT NULL
-)
-;
-
-ALTER TABLE `phone_area_code` ADD PRIMARY KEY (`phone_area_code_id`)
-;
-
-ALTER TABLE `phone_area_code` ADD UNIQUE `phone_area_code_id` (`phone_area_code_id`)
-;
-
-ALTER TABLE `phone_area_code` ADD UNIQUE `area_code` (`area_code`)
-;
-
-ALTER TABLE `phone_area_code` ADD UNIQUE `prefix` (`prefix`)
-;
-
--- Table answer
-
-CREATE TABLE `answer`
-(
-  `answer_id` Char(20) NOT NULL,
-  `statement` Char(225),
-  `responce_date` Date
-)
-;
-
-ALTER TABLE `answer` ADD PRIMARY KEY (`answer_id`)
-;
-
--- Create foreign keys (relationships) section ------------------------------------------------- 
-
-
-ALTER TABLE `employee` ADD CONSTRAINT `Bank Employee` FOREIGN KEY (`person_id`) REFERENCES `person` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `customer` ADD CONSTRAINT `Bank Customer` FOREIGN KEY (`person_id`) REFERENCES `person` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `phone_employee` ADD CONSTRAINT `Employees Telephone No` FOREIGN KEY (`person_id`) REFERENCES `person` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `phone_employee` ADD CONSTRAINT `Phone Number` FOREIGN KEY (`phone_id`) REFERENCES `phone` (`phone_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `email` ADD CONSTRAINT `Person Email` FOREIGN KEY (`person_id`) REFERENCES `person` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `questions` ADD CONSTRAINT `Person Submited Questions` FOREIGN KEY (`person_id`) REFERENCES `person` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `credit_card` ADD CONSTRAINT `Credit Card` FOREIGN KEY (`person_id`) REFERENCES `customer` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `account` ADD CONSTRAINT `Account` FOREIGN KEY (`person_id`) REFERENCES `customer` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `email` ADD CONSTRAINT `Domain Part of the Email Address` FOREIGN KEY (`email_domain_id`) REFERENCES `email_domin` (`email_domain_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `questions` ADD CONSTRAINT `Question Category` FOREIGN KEY (`question_category_id`) REFERENCES `question_category` (`question_category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `Login` ADD CONSTRAINT `Login to the Website` FOREIGN KEY (`person_id`) REFERENCES `customer` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `open_hours` ADD CONSTRAINT `Open Hours` FOREIGN KEY (`branch_id`) REFERENCES `branch` (`branch_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `employee` ADD CONSTRAINT `Worker` FOREIGN KEY (`branch_id`) REFERENCES `branch` (`branch_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `phone` ADD CONSTRAINT `area_code` FOREIGN KEY (`phone_area_code_id`) REFERENCES `phone_area_code` (`phone_area_code_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `questions` ADD CONSTRAINT `Answer` FOREIGN KEY (`answer_id`) REFERENCES `answer` (`answer_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `account` ADD CONSTRAINT `account types` FOREIGN KEY (`type_code`) REFERENCES `account_types` (`type_code`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
 INSERT INTO bank.person (person_id, start_date, name_first, name_last, name_middle, titlle, social_security_number) VALUES ('016', '2019-01-06', 'Amanda', 'Rogers', 'Jolie', 'Ms', 123456774);
 INSERT INTO bank.person (person_id, start_date, name_first, name_last, name_middle, titlle, social_security_number) VALUES ('017', '2019-01-05', 'Lisa', 'Cook', 'Mira', 'Ms', 123456773);
 INSERT INTO bank.person (person_id, start_date, name_first, name_last, name_middle, titlle, social_security_number) VALUES ('018', '2019-01-04', 'Tyrell', 'Coleman', 'Krish', 'Mr', 123456772);
@@ -429,52 +85,6 @@ INSERT INTO bank.phone_area_code (phone_area_code_id, area_code, prefix) VALUES 
 INSERT INTO bank.phone_area_code (phone_area_code_id, area_code, prefix) VALUES ('002', '404', '231');
 INSERT INTO bank.phone_area_code (phone_area_code_id, area_code, prefix) VALUES ('003', '623', '546');
 
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('001', '0001', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('002', '0002', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('003', '0003', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('004', '0004', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('005', '0005', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('006', '0006', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('007', '0007', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('008', '0008', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('009', '0009', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('010', '0010', '001');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('011', '0011', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('012', '0012', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('013', '0013', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('014', '0014', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('015', '0015', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('016', '0016', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('017', '0017', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('018', '0018', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('019', '0019', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('020', '0020', '002');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('021', '0021', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('022', '0022', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('023', '0023', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('024', '0024', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('025', '0025', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('026', '0026', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('027', '0027', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('028', '0028', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('029', '0029', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('030', '0030', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('031', '0031', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('032', '0032', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('033', '0033', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('034', '0034', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('035', '0035', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('036', '0036', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('037', '0037', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('038', '0038', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('039', '0039', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('040', '0040', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('041', '0041', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('042', '0042', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('043', '0043', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('044', '0044', '003');
-INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('045', '0045', '003');
-
 INSERT INTO bank.phone_employee (person_id, phone_id) VALUES ('001', '001');
 INSERT INTO bank.phone_employee (person_id, phone_id) VALUES ('002', '002');
 INSERT INTO bank.phone_employee (person_id, phone_id) VALUES ('003', '003');
@@ -520,6 +130,52 @@ INSERT INTO bank.phone_employee (person_id, phone_id) VALUES ('042', '042');
 INSERT INTO bank.phone_employee (person_id, phone_id) VALUES ('043', '043');
 INSERT INTO bank.phone_employee (person_id, phone_id) VALUES ('044', '044');
 INSERT INTO bank.phone_employee (person_id, phone_id) VALUES ('045', '045');
+
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('001', '0001', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('002', '0002', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('003', '0003', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('004', '0004', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('005', '0005', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('006', '0006', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('007', '0007', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('008', '0008', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('009', '0009', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('010', '0010', '001');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('011', '0011', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('012', '0012', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('013', '0013', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('014', '0014', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('015', '0015', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('016', '0016', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('017', '0017', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('018', '0018', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('019', '0019', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('020', '0020', '002');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('021', '0021', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('022', '0022', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('023', '0023', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('024', '0024', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('025', '0025', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('026', '0026', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('027', '0027', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('028', '0028', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('029', '0029', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('030', '0030', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('031', '0031', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('032', '0032', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('033', '0033', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('034', '0034', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('035', '0035', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('036', '0036', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('037', '0037', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('038', '0038', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('039', '0039', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('040', '0040', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('041', '0041', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('042', '0042', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('043', '0043', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('044', '0044', '003');
+INSERT INTO bank.phone (phone_id, line_number, phone_area_code_id) VALUES ('045', '0045', '003');
 
 INSERT INTO bank.email_domin (email_domain_id, domain) VALUES ('001', 'jnb.com');
 INSERT INTO bank.email_domin (email_domain_id, domain) VALUES ('002', 'gmail.com');
