@@ -218,8 +218,8 @@ ALTER TABLE `credit_card` ADD UNIQUE `credit_card_number` (`credit_card_number`)
 CREATE TABLE `account`
 (
   `person_id` Char(20) NOT NULL,
-  `account_type` Char(20),
-  `amount` Decimal(10,2)
+  `amount` Decimal(10,2),
+  `type_code` Char(20)
 )
 ;
 
@@ -346,6 +346,10 @@ ALTER TABLE `phone` ADD CONSTRAINT `area_code` FOREIGN KEY (`phone_area_code_id`
 
 
 ALTER TABLE `questions` ADD CONSTRAINT `Answer` FOREIGN KEY (`answer_id`) REFERENCES `answer` (`answer_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+
+ALTER TABLE `account` ADD CONSTRAINT `account types` FOREIGN KEY (`type_code`) REFERENCES `account_types` (`type_code`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
 
