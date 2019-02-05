@@ -201,13 +201,16 @@ ALTER TABLE `question_category` ADD UNIQUE `question_category_id` (`question_cat
 CREATE TABLE `credit_card`
 (
   `person_id` Char(20) NOT NULL,
-  `credit_card_number` Char(20),
-  `expire_date` Char(20),
-  `code` Char(20)
+  `credit_card_number` Char(16) NOT NULL,
+  `expire_date` Date NOT NULL,
+  `code` Char(3) NOT NULL
 )
 ;
 
 ALTER TABLE `credit_card` ADD PRIMARY KEY (`person_id`)
+;
+
+ALTER TABLE `credit_card` ADD UNIQUE `credit_card_number` (`credit_card_number`)
 ;
 
 -- Table account
@@ -215,13 +218,12 @@ ALTER TABLE `credit_card` ADD PRIMARY KEY (`person_id`)
 CREATE TABLE `account`
 (
   `person_id` Char(20) NOT NULL,
-  `type_code` Char(20) NOT NULL,
   `account_type` Char(20),
   `amount` Decimal(10,2)
 )
 ;
 
-ALTER TABLE `account` ADD PRIMARY KEY (`person_id`,`type_code`)
+ALTER TABLE `account` ADD PRIMARY KEY (`person_id`)
 ;
 
 -- Table account_types
@@ -316,10 +318,6 @@ ALTER TABLE `credit_card` ADD CONSTRAINT `Credit Card` FOREIGN KEY (`person_id`)
 
 
 ALTER TABLE `account` ADD CONSTRAINT `Account` FOREIGN KEY (`person_id`) REFERENCES `customer` (`person_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-
-ALTER TABLE `account` ADD CONSTRAINT `Account Type` FOREIGN KEY (`type_code`) REFERENCES `account_types` (`type_code`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
 

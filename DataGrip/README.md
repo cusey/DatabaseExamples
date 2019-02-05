@@ -23,3 +23,7 @@
 ### PURPLE TABLE CATEGORIES     
 #### Customer (CUSTOMER - LOGIN into customer webpage, CREDIT CARD, saving/credit ACCOUTs, and ACCOUNT TYPES )     
 1. bank_customer    
+2. bank_account_types
+3. bank_account
+4. bank_login
+5. bank_credit_card
