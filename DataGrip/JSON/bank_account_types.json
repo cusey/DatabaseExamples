@@ -1,0 +1,22 @@
+[
+  {
+    "type_code": "BCC",
+    "account_display_name": "Brass Credit Card"
+  },
+  {
+    "type_code": "CA",
+    "account_display_name": "Checking Account"
+  },
+  {
+    "type_code": "GCC",
+    "account_display_name": "Gold Credit Card"
+  },
+  {
+    "type_code": "SA",
+    "account_display_name": "Saving Account"
+  },
+  {
+    "type_code": "SCC",
+    "account_display_name": "Silver Credit Card"
+  }
+]

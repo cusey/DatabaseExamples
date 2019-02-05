@@ -1,0 +1,317 @@
+[
+  {
+    "email_id": 1,
+    "person_id": "E001",
+    "is_primary": "Y",
+    "email": "john.smith",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 2,
+    "person_id": "E002",
+    "is_primary": "Y",
+    "email": "joey.johnson",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 3,
+    "person_id": "E003",
+    "is_primary": "Y",
+    "email": "sam.williams",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 4,
+    "person_id": "E004",
+    "is_primary": "Y",
+    "email": "ryann.jones",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 5,
+    "person_id": "E005",
+    "is_primary": "Y",
+    "email": "ty.brown",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 6,
+    "person_id": "E006",
+    "is_primary": "Y",
+    "email": "kate.davis",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 7,
+    "person_id": "E007",
+    "is_primary": "Y",
+    "email": "howard.miller",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 8,
+    "person_id": "E008",
+    "is_primary": "Y",
+    "email": "robert.hall",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 9,
+    "person_id": "E009",
+    "is_primary": "Y",
+    "email": "susan.allen",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 10,
+    "person_id": "E010",
+    "is_primary": "Y",
+    "email": "tori.young",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 11,
+    "person_id": "E011",
+    "is_primary": "Y",
+    "email": "hillary.cook",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 12,
+    "person_id": "E012",
+    "is_primary": "Y",
+    "email": "mia.king",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 13,
+    "person_id": "E013",
+    "is_primary": "Y",
+    "email": "joslyn.stewart",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 14,
+    "person_id": "E014",
+    "is_primary": "Y",
+    "email": "joel.wood",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 15,
+    "person_id": "E015",
+    "is_primary": "Y",
+    "email": "donald.ross",
+    "email_domain_id": "001"
+  },
+  {
+    "email_id": 16,
+    "person_id": "016",
+    "is_primary": "Y",
+    "email": "amanda.rogers",
+    "email_domain_id": "002"
+  },
+  {
+    "email_id": 17,
+    "person_id": "017",
+    "is_primary": "Y",
+    "email": "lisa.cook",
+    "email_domain_id": "002"
+  },
+  {
+    "email_id": 18,
+    "person_id": "018",
+    "is_primary": "Y",
+    "email": "tyrell.coleman",
+    "email_domain_id": "002"
+  },
+  {
+    "email_id": 19,
+    "person_id": "019",
+    "is_primary": "Y",
+    "email": "holly.white",
+    "email_domain_id": "002"
+  },
+  {
+    "email_id": 20,
+    "person_id": "020",
+    "is_primary": "Y",
+    "email": "gordon.watson",
+    "email_domain_id": "002"
+  },
+  {
+    "email_id": 21,
+    "person_id": "021",
+    "is_primary": "Y",
+    "email": "amber.hayes",
+    "email_domain_id": "002"
+  },
+  {
+    "email_id": 22,
+    "person_id": "022",
+    "is_primary": "Y",
+    "email": "madison.price",
+    "email_domain_id": "003"
+  },
+  {
+    "email_id": 23,
+    "person_id": "023",
+    "is_primary": "Y",
+    "email": "emma.bennett",
+    "email_domain_id": "003"
+  },
+  {
+    "email_id": 24,
+    "person_id": "024",
+    "is_primary": "Y",
+    "email": "hannah.wood",
+    "email_domain_id": "003"
+  },
+  {
+    "email_id": 25,
+    "person_id": "025",
+    "is_primary": "Y",
+    "email": "olivia.barnes",
+    "email_domain_id": "003"
+  },
+  {
+    "email_id": 26,
+    "person_id": "026",
+    "is_primary": "Y",
+    "email": "abigail.ross",
+    "email_domain_id": "003"
+  },
+  {
+    "email_id": 27,
+    "person_id": "027",
+    "is_primary": "Y",
+    "email": "isabella.henderson",
+    "email_domain_id": "004"
+  },
+  {
+    "email_id": 28,
+    "person_id": "028",
+    "is_primary": "Y",
+    "email": "ashley.coleman",
+    "email_domain_id": "004"
+  },
+  {
+    "email_id": 29,
+    "person_id": "029",
+    "is_primary": "Y",
+    "email": "samantha.jenkins",
+    "email_domain_id": "004"
+  },
+  {
+    "email_id": 30,
+    "person_id": "030",
+    "is_primary": "Y",
+    "email": "elizabeth.perry",
+    "email_domain_id": "004"
+  },
+  {
+    "email_id": 31,
+    "person_id": "031",
+    "is_primary": "Y",
+    "email": "alexis.powell",
+    "email_domain_id": "005"
+  },
+  {
+    "email_id": 32,
+    "person_id": "032",
+    "is_primary": "Y",
+    "email": "sarah.long",
+    "email_domain_id": "005"
+  },
+  {
+    "email_id": 33,
+    "person_id": "033",
+    "is_primary": "Y",
+    "email": "alyssa.patterson",
+    "email_domain_id": "005"
+  },
+  {
+    "email_id": 34,
+    "person_id": "034",
+    "is_primary": "Y",
+    "email": "grace.hughes",
+    "email_domain_id": "005"
+  },
+  {
+    "email_id": 35,
+    "person_id": "035",
+    "is_primary": "Y",
+    "email": "sophia.flores",
+    "email_domain_id": "005"
+  },
+  {
+    "email_id": 36,
+    "person_id": "036",
+    "is_primary": "Y",
+    "email": "taylor.washington",
+    "email_domain_id": "006"
+  },
+  {
+    "email_id": 37,
+    "person_id": "037",
+    "is_primary": "Y",
+    "email": "brianna.butler",
+    "email_domain_id": "006"
+  },
+  {
+    "email_id": 38,
+    "person_id": "038",
+    "is_primary": "Y",
+    "email": "lauren.simmons",
+    "email_domain_id": "006"
+  },
+  {
+    "email_id": 39,
+    "person_id": "039",
+    "is_primary": "Y",
+    "email": "ava.foster",
+    "email_domain_id": "006"
+  },
+  {
+    "email_id": 40,
+    "person_id": "040",
+    "is_primary": "Y",
+    "email": "kayla.gonzales",
+    "email_domain_id": "006"
+  },
+  {
+    "email_id": 41,
+    "person_id": "041",
+    "is_primary": "Y",
+    "email": "jessica.bryant",
+    "email_domain_id": "006"
+  },
+  {
+    "email_id": 42,
+    "person_id": "042",
+    "is_primary": "Y",
+    "email": "natalie.alexander",
+    "email_domain_id": "006"
+  },
+  {
+    "email_id": 43,
+    "person_id": "043",
+    "is_primary": "Y",
+    "email": "chloe.russell",
+    "email_domain_id": "006"
+  },
+  {
+    "email_id": 44,
+    "person_id": "044",
+    "is_primary": "Y",
+    "email": "anna.griffin",
+    "email_domain_id": "006"
+  },
+  {
+    "email_id": 45,
+    "person_id": "045",
+    "is_primary": "Y",
+    "email": "victoria.diaz",
+    "email_domain_id": "006"
+  }
+]

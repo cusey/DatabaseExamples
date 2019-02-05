@@ -1,0 +1,122 @@
+[
+  {
+    "open_hours_id": "001",
+    "open_hours_name": "STANDARD",
+    "open_time": "9:00 AM",
+    "close_time": "5:00 PM",
+    "day_of_week": "Monday",
+    "branch_id": "001"
+  },
+  {
+    "open_hours_id": "002",
+    "open_hours_name": "STANDARD",
+    "open_time": "9:00 AM",
+    "close_time": "5:00 PM",
+    "day_of_week": "Tuesday",
+    "branch_id": "001"
+  },
+  {
+    "open_hours_id": "003",
+    "open_hours_name": "STANDARD",
+    "open_time": "9:00 AM",
+    "close_time": "5:00 PM",
+    "day_of_week": "Wedneday",
+    "branch_id": "001"
+  },
+  {
+    "open_hours_id": "004",
+    "open_hours_name": "STANDARD",
+    "open_time": "9:00 AM",
+    "close_time": "5:00 PM",
+    "day_of_week": "Thursday",
+    "branch_id": "001"
+  },
+  {
+    "open_hours_id": "005",
+    "open_hours_name": "STANDARD",
+    "open_time": "9:00 AM",
+    "close_time": "5:00 PM",
+    "day_of_week": "Friday",
+    "branch_id": "001"
+  },
+  {
+    "open_hours_id": "006",
+    "open_hours_name": "STANDARD",
+    "open_time": "11:00 AM",
+    "close_time": "3:00 PM",
+    "day_of_week": "Saturday",
+    "branch_id": "001"
+  },
+  {
+    "open_hours_id": "007",
+    "open_hours_name": "LONG",
+    "open_time": "9:00 AM",
+    "close_time": "9:00 PM",
+    "day_of_week": "Monday",
+    "branch_id": "002"
+  },
+  {
+    "open_hours_id": "008",
+    "open_hours_name": "LONG",
+    "open_time": "9:00 AM",
+    "close_time": "9:00 PM",
+    "day_of_week": "Tuesday",
+    "branch_id": "002"
+  },
+  {
+    "open_hours_id": "009",
+    "open_hours_name": "LONG",
+    "open_time": "9:00 AM",
+    "close_time": "9:00 PM",
+    "day_of_week": "Wedneday",
+    "branch_id": "002"
+  },
+  {
+    "open_hours_id": "010",
+    "open_hours_name": "LONG",
+    "open_time": "9:00 AM",
+    "close_time": "9:00 PM",
+    "day_of_week": "Thursday",
+    "branch_id": "002"
+  },
+  {
+    "open_hours_id": "011",
+    "open_hours_name": "LONG",
+    "open_time": "9:00 AM",
+    "close_time": "9:00 PM",
+    "day_of_week": "Friday",
+    "branch_id": "002"
+  },
+  {
+    "open_hours_id": "012",
+    "open_hours_name": "LONG",
+    "open_time": "6:00 AM",
+    "close_time": "9:00 PM",
+    "day_of_week": "Saturday",
+    "branch_id": "002"
+  },
+  {
+    "open_hours_id": "013",
+    "open_hours_name": "LONG",
+    "open_time": "6:00 AM",
+    "close_time": "9:00 PM",
+    "day_of_week": "Sunday",
+    "branch_id": "002"
+  },
+  {
+    "open_hours_id": "014",
+    "open_hours_name": "SHORT",
+    "open_time": "11:00 AM",
+    "close_time": "3:00 PM",
+    "day_of_week": "Saturday",
+    "branch_id": "003"
+  },
+  {
+    "open_hours_id": "015",
+    "open_hours_name": "SHORT",
+    "open_time": "11:00 AM",
+    "close_time": "3:00 PM",
+    "day_of_week": "Sunday",
+    "branch_id": "003"
+  }
+]

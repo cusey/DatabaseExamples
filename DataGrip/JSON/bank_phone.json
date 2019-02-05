@@ -1,0 +1,227 @@
+[
+  {
+    "phone_id": "001",
+    "line_number": "0001",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "002",
+    "line_number": "0002",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "003",
+    "line_number": "0003",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "004",
+    "line_number": "0004",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "005",
+    "line_number": "0005",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "006",
+    "line_number": "0006",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "007",
+    "line_number": "0007",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "008",
+    "line_number": "0008",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "009",
+    "line_number": "0009",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "010",
+    "line_number": "0010",
+    "phone_area_code_id": "001"
+  },
+  {
+    "phone_id": "011",
+    "line_number": "0011",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "012",
+    "line_number": "0012",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "013",
+    "line_number": "0013",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "014",
+    "line_number": "0014",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "015",
+    "line_number": "0015",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "016",
+    "line_number": "0016",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "017",
+    "line_number": "0017",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "018",
+    "line_number": "0018",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "019",
+    "line_number": "0019",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "020",
+    "line_number": "0020",
+    "phone_area_code_id": "002"
+  },
+  {
+    "phone_id": "021",
+    "line_number": "0021",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "022",
+    "line_number": "0022",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "023",
+    "line_number": "0023",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "024",
+    "line_number": "0024",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "025",
+    "line_number": "0025",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "026",
+    "line_number": "0026",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "027",
+    "line_number": "0027",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "028",
+    "line_number": "0028",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "029",
+    "line_number": "0029",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "030",
+    "line_number": "0030",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "031",
+    "line_number": "0031",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "032",
+    "line_number": "0032",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "033",
+    "line_number": "0033",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "034",
+    "line_number": "0034",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "035",
+    "line_number": "0035",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "036",
+    "line_number": "0036",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "037",
+    "line_number": "0037",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "038",
+    "line_number": "0038",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "039",
+    "line_number": "0039",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "040",
+    "line_number": "0040",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "041",
+    "line_number": "0041",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "042",
+    "line_number": "0042",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "043",
+    "line_number": "0043",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "044",
+    "line_number": "0044",
+    "phone_area_code_id": "003"
+  },
+  {
+    "phone_id": "045",
+    "line_number": "0045",
+    "phone_area_code_id": "003"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "person_id": "016",
+    "questions_id": "001",
+    "statement": "What do I do if I dispute a charge on my credit card account?",
+    "statement_create_date": "2019-02-05",
+    "question_category_id": "CC_CCD",
+    "answer_id": "001"
+  },
+  {
+    "person_id": "017",
+    "questions_id": "002",
+    "statement": "Can the bank apply late fees and interest while my billing dispute is being investigated?",
+    "statement_create_date": "2019-02-05",
+    "question_category_id": "CC_CCD",
+    "answer_id": "002"
+  },
+  {
+    "person_id": "018",
+    "questions_id": "003",
+    "statement": "What is a bank custodian?",
+    "statement_create_date": "2019-02-05",
+    "question_category_id": "AM_BC",
+    "answer_id": "003"
+  },
+  {
+    "person_id": "019",
+    "questions_id": "004",
+    "statement": "What services are provided by bank custodians?",
+    "statement_create_date": "2019-02-05",
+    "question_category_id": "AM_BC",
+    "answer_id": "004"
+  },
+  {
+    "person_id": "020",
+    "questions_id": "005",
+    "statement": "Is my money guaranteed in a Collective Investment Fund (CIF)?",
+    "statement_create_date": "2019-02-05",
+    "question_category_id": "AM_CIF",
+    "answer_id": "005"
+  },
+  {
+    "person_id": "021",
+    "questions_id": "006",
+    "statement": "How do I know what securities are owned by my CIF?",
+    "statement_create_date": "2019-02-05",
+    "question_category_id": "AM_CIF",
+    "answer_id": "006"
+  },
+  {
+    "person_id": "022",
+    "questions_id": "007",
+    "statement": "Can the bank charge a late fee on my credit card?",
+    "statement_create_date": "2019-02-05",
+    "question_category_id": "CC_CCF",
+    "answer_id": "007"
+  },
+  {
+    "person_id": "023",
+    "questions_id": "008",
+    "statement": "Can the bank charge me an over-the-limit fee?",
+    "statement_create_date": "2019-02-05",
+    "question_category_id": "CC_CCF",
+    "answer_id": "008"
+  }
+]

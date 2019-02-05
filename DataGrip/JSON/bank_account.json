@@ -1,0 +1,152 @@
+[
+  {
+    "person_id": "016",
+    "amount": 100.00,
+    "type_code": "BCC"
+  },
+  {
+    "person_id": "017",
+    "amount": 100.00,
+    "type_code": "CA"
+  },
+  {
+    "person_id": "018",
+    "amount": 100.00,
+    "type_code": "GCC"
+  },
+  {
+    "person_id": "019",
+    "amount": 100.00,
+    "type_code": "SA"
+  },
+  {
+    "person_id": "020",
+    "amount": 100.00,
+    "type_code": "SCC"
+  },
+  {
+    "person_id": "021",
+    "amount": 100.00,
+    "type_code": "BCC"
+  },
+  {
+    "person_id": "022",
+    "amount": 100.00,
+    "type_code": "CA"
+  },
+  {
+    "person_id": "023",
+    "amount": 100.00,
+    "type_code": "GCC"
+  },
+  {
+    "person_id": "024",
+    "amount": 100.00,
+    "type_code": "SA"
+  },
+  {
+    "person_id": "025",
+    "amount": 100.00,
+    "type_code": "SCC"
+  },
+  {
+    "person_id": "026",
+    "amount": 100.00,
+    "type_code": "BCC"
+  },
+  {
+    "person_id": "027",
+    "amount": 100.00,
+    "type_code": "CA"
+  },
+  {
+    "person_id": "028",
+    "amount": 100.00,
+    "type_code": "GCC"
+  },
+  {
+    "person_id": "029",
+    "amount": 100.00,
+    "type_code": "SA"
+  },
+  {
+    "person_id": "030",
+    "amount": 100.00,
+    "type_code": "SCC"
+  },
+  {
+    "person_id": "031",
+    "amount": 100.00,
+    "type_code": "BCC"
+  },
+  {
+    "person_id": "032",
+    "amount": 100.00,
+    "type_code": "CA"
+  },
+  {
+    "person_id": "033",
+    "amount": 100.00,
+    "type_code": "GCC"
+  },
+  {
+    "person_id": "034",
+    "amount": 100.00,
+    "type_code": "SA"
+  },
+  {
+    "person_id": "035",
+    "amount": 100.00,
+    "type_code": "SCC"
+  },
+  {
+    "person_id": "036",
+    "amount": 100.00,
+    "type_code": "BCC"
+  },
+  {
+    "person_id": "037",
+    "amount": 100.00,
+    "type_code": "CA"
+  },
+  {
+    "person_id": "038",
+    "amount": 100.00,
+    "type_code": "GCC"
+  },
+  {
+    "person_id": "039",
+    "amount": 100.00,
+    "type_code": "SA"
+  },
+  {
+    "person_id": "040",
+    "amount": 100.00,
+    "type_code": "SCC"
+  },
+  {
+    "person_id": "041",
+    "amount": 100.00,
+    "type_code": "BCC"
+  },
+  {
+    "person_id": "042",
+    "amount": 100.00,
+    "type_code": "CA"
+  },
+  {
+    "person_id": "043",
+    "amount": 100.00,
+    "type_code": "GCC"
+  },
+  {
+    "person_id": "044",
+    "amount": 100.00,
+    "type_code": "SA"
+  },
+  {
+    "person_id": "045",
+    "amount": 100.00,
+    "type_code": "SCC"
+  }
+]

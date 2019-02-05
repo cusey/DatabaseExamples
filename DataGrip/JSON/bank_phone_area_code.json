@@ -1,0 +1,17 @@
+[
+  {
+    "phone_area_code_id": "001",
+    "area_code": "612",
+    "prefix": "667"
+  },
+  {
+    "phone_area_code_id": "002",
+    "area_code": "404",
+    "prefix": "231"
+  },
+  {
+    "phone_area_code_id": "003",
+    "area_code": "623",
+    "prefix": "546"
+  }
+]

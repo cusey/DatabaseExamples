@@ -1,0 +1,26 @@
+[
+  {
+    "email_domain_id": "001",
+    "domain": "jnb.com"
+  },
+  {
+    "email_domain_id": "002",
+    "domain": "gmail.com"
+  },
+  {
+    "email_domain_id": "003",
+    "domain": "hotmail.com"
+  },
+  {
+    "email_domain_id": "004",
+    "domain": "yahoo.com"
+  },
+  {
+    "email_domain_id": "005",
+    "domain": "outlook.com"
+  },
+  {
+    "email_domain_id": "006",
+    "domain": "mail.com"
+  }
+]

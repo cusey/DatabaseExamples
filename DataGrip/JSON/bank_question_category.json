@@ -1,0 +1,22 @@
+[
+  {
+    "question_category_id": "AM_BC",
+    "category_name": "Asset Management",
+    "sub_category_name": "Bank Custodians"
+  },
+  {
+    "question_category_id": "AM_CIF",
+    "category_name": "Asset Management",
+    "sub_category_name": "Collective Investment Funds"
+  },
+  {
+    "question_category_id": "CC_CCD",
+    "category_name": "Credit Cards",
+    "sub_category_name": "Credit Card Disputes"
+  },
+  {
+    "question_category_id": "CC_CCF",
+    "category_name": "Credit Cards",
+    "sub_category_name": "Credit Card Fees"
+  }
+]
