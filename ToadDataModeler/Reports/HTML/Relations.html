@@ -1,0 +1,1087 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Relationships</div><div class="reportStats">Tuesday, February 5, 2019 7:01:15 PM</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li><a href="Tables.html">Entities</a></li><li><a href="Columns.html">Attributes</a></li><li><a href="Indexes.html">Indexes</a></li><li><a href="Keys.html">Keys</a></li><li class="selLi"><a href="Relations.html" class="selAnchor">Relationships</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option value="Relation_{E1864F8E-3650-473E-8FE2-2432C28B6189}">Account</option><option value="Relation_{1480C721-FE54-47E4-BA9B-16CCA19F946B}">account types</option><option value="Relation_{4AF5AC59-197E-404D-A31F-3C243A178989}">Answer</option><option value="Relation_{078FA1F9-53B7-4AB1-AD0C-4B491A8BD661}">area_code</option><option value="Relation_{62B747CF-5335-44A5-A182-B11BC09B186C}">Bank Customer</option><option value="Relation_{E12EE281-C1DC-4B06-B0FA-151C891F1A02}">Bank Employee</option><option value="Relation_{0378683D-1616-4B9C-B26E-6E3780023DBC}">Credit Card</option><option value="Relation_{47125343-C088-4AE9-9532-0F16FC63BB83}">Domain Part of the Email Address</option><option value="Relation_{5DFAF6D9-AAF6-418C-89A5-2B2E0F04A4F5}">Employees Telephone No</option><option value="Relation_{025F49A5-83D6-420D-948B-61CEC2D19DF5}">Login to the Website</option><option value="Relation_{E24E985C-9160-40A8-9712-6C3F934FD8A3}">Open Hours</option><option value="Relation_{BAAB0434-9F29-40CE-90AC-F41ED6A44B3E}">Person Email</option><option value="Relation_{D1AC8932-DC51-4AA5-969C-E2136E70138B}">Person Submited Questions</option><option value="Relation_{8C2339A6-08C2-4726-A50B-8D1BA3A5CCFE}">Phone Number</option><option value="Relation_{24E61AD3-CF2D-42DE-B7A9-EA9777D8EDE8}">Question Category</option><option value="Relation_{308BF21B-BFF5-48A1-8B6C-98683CAACD6D}">Worker</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li><a onClick="return showDetail('Relation_{E1864F8E-3650-473E-8FE2-2432C28B6189}', this)">Account</a></li><li><a onClick="return showDetail('Relation_{1480C721-FE54-47E4-BA9B-16CCA19F946B}', this)">account types</a></li><li><a onClick="return showDetail('Relation_{4AF5AC59-197E-404D-A31F-3C243A178989}', this)">Answer</a></li><li><a onClick="return showDetail('Relation_{078FA1F9-53B7-4AB1-AD0C-4B491A8BD661}', this)">area_code</a></li><li><a onClick="return showDetail('Relation_{62B747CF-5335-44A5-A182-B11BC09B186C}', this)">Bank Customer</a></li><li><a onClick="return showDetail('Relation_{E12EE281-C1DC-4B06-B0FA-151C891F1A02}', this)">Bank Employee</a></li><li><a onClick="return showDetail('Relation_{0378683D-1616-4B9C-B26E-6E3780023DBC}', this)">Credit Card</a></li><li><a onClick="return showDetail('Relation_{47125343-C088-4AE9-9532-0F16FC63BB83}', this)">Domain Part of the Email Address</a></li><li><a onClick="return showDetail('Relation_{5DFAF6D9-AAF6-418C-89A5-2B2E0F04A4F5}', this)">Employees Telephone No</a></li><li><a onClick="return showDetail('Relation_{025F49A5-83D6-420D-948B-61CEC2D19DF5}', this)">Login to the Website</a></li><li><a onClick="return showDetail('Relation_{E24E985C-9160-40A8-9712-6C3F934FD8A3}', this)">Open Hours</a></li><li><a onClick="return showDetail('Relation_{BAAB0434-9F29-40CE-90AC-F41ED6A44B3E}', this)">Person Email</a></li><li><a onClick="return showDetail('Relation_{D1AC8932-DC51-4AA5-969C-E2136E70138B}', this)">Person Submited Questions</a></li><li><a onClick="return showDetail('Relation_{8C2339A6-08C2-4726-A50B-8D1BA3A5CCFE}', this)">Phone Number</a></li><li><a onClick="return showDetail('Relation_{24E61AD3-CF2D-42DE-B7A9-EA9777D8EDE8}', this)">Question Category</a></li><li><a onClick="return showDetail('Relation_{308BF21B-BFF5-48A1-8B6C-98683CAACD6D}', this)">Worker</a></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><div id="Relation_{E1864F8E-3650-473E-8FE2-2432C28B6189}" class="item">
+<a name = "Relation_{E1864F8E-3650-473E-8FE2-2432C28B6189}"></a>
+<div class="caption1"><p>Account</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Account</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">customer</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">account</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">person_id</td>
+<td class="tabdata" width="30%">person_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{1480C721-FE54-47E4-BA9B-16CCA19F946B}" class="item">
+<a name = "Relation_{1480C721-FE54-47E4-BA9B-16CCA19F946B}"></a>
+<div class="caption1"><p>account types</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">account types</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Non-identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">account_types</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">account</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">type_code</td>
+<td class="tabdata" width="30%">type_code</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{4AF5AC59-197E-404D-A31F-3C243A178989}" class="item">
+<a name = "Relation_{4AF5AC59-197E-404D-A31F-3C243A178989}"></a>
+<div class="caption1"><p>Answer</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Answer</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Non-identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">answer</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">questions</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">answer_id</td>
+<td class="tabdata" width="30%">answer_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{078FA1F9-53B7-4AB1-AD0C-4B491A8BD661}" class="item">
+<a name = "Relation_{078FA1F9-53B7-4AB1-AD0C-4B491A8BD661}"></a>
+<div class="caption1"><p>area_code</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">area_code</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Non-identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">phone_area_code</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">phone</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Alternate Key 'phone_area_code_id'</td>
+<td class="tabdata" width="30%">phone_area_code_id</td>
+<td class="tabdata" width="30%">phone_area_code_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{62B747CF-5335-44A5-A182-B11BC09B186C}" class="item">
+<a name = "Relation_{62B747CF-5335-44A5-A182-B11BC09B186C}"></a>
+<div class="caption1"><p>Bank Customer</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Bank Customer</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:1</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">person</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">customer</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">person_id</td>
+<td class="tabdata" width="30%">person_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{E12EE281-C1DC-4B06-B0FA-151C891F1A02}" class="item">
+<a name = "Relation_{E12EE281-C1DC-4B06-B0FA-151C891F1A02}"></a>
+<div class="caption1"><p>Bank Employee</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Bank Employee</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:1</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">person</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">employee</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">person_id</td>
+<td class="tabdata" width="30%">person_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{0378683D-1616-4B9C-B26E-6E3780023DBC}" class="item">
+<a name = "Relation_{0378683D-1616-4B9C-B26E-6E3780023DBC}"></a>
+<div class="caption1"><p>Credit Card</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Credit Card</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">customer</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">credit_card</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">person_id</td>
+<td class="tabdata" width="30%">person_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{47125343-C088-4AE9-9532-0F16FC63BB83}" class="item">
+<a name = "Relation_{47125343-C088-4AE9-9532-0F16FC63BB83}"></a>
+<div class="caption1"><p>Domain Part of the Email Address</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Domain Part of the Email Address</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Non-identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">email_domin</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">email</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">email_domain_id</td>
+<td class="tabdata" width="30%">email_domain_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{5DFAF6D9-AAF6-418C-89A5-2B2E0F04A4F5}" class="item">
+<a name = "Relation_{5DFAF6D9-AAF6-418C-89A5-2B2E0F04A4F5}"></a>
+<div class="caption1"><p>Employees Telephone No</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Employees Telephone No</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">person</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">phone_employee</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">person_id</td>
+<td class="tabdata" width="30%">person_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{025F49A5-83D6-420D-948B-61CEC2D19DF5}" class="item">
+<a name = "Relation_{025F49A5-83D6-420D-948B-61CEC2D19DF5}"></a>
+<div class="caption1"><p>Login to the Website</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Login to the Website</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:1</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">customer</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">Login</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">person_id</td>
+<td class="tabdata" width="30%">person_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{E24E985C-9160-40A8-9712-6C3F934FD8A3}" class="item">
+<a name = "Relation_{E24E985C-9160-40A8-9712-6C3F934FD8A3}"></a>
+<div class="caption1"><p>Open Hours</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Open Hours</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Non-identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">branch</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">open_hours</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">branch_id</td>
+<td class="tabdata" width="30%">branch_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{BAAB0434-9F29-40CE-90AC-F41ED6A44B3E}" class="item">
+<a name = "Relation_{BAAB0434-9F29-40CE-90AC-F41ED6A44B3E}"></a>
+<div class="caption1"><p>Person Email</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Person Email</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">person</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">email</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">person_id</td>
+<td class="tabdata" width="30%">person_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{D1AC8932-DC51-4AA5-969C-E2136E70138B}" class="item">
+<a name = "Relation_{D1AC8932-DC51-4AA5-969C-E2136E70138B}"></a>
+<div class="caption1"><p>Person Submited Questions</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Person Submited Questions</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">person</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">questions</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">person_id</td>
+<td class="tabdata" width="30%">person_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{8C2339A6-08C2-4726-A50B-8D1BA3A5CCFE}" class="item">
+<a name = "Relation_{8C2339A6-08C2-4726-A50B-8D1BA3A5CCFE}"></a>
+<div class="caption1"><p>Phone Number</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Phone Number</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">YES</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">phone</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">phone_employee</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">phone_id</td>
+<td class="tabdata" width="30%">phone_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{24E61AD3-CF2D-42DE-B7A9-EA9777D8EDE8}" class="item">
+<a name = "Relation_{24E61AD3-CF2D-42DE-B7A9-EA9777D8EDE8}"></a>
+<div class="caption1"><p>Question Category</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Question Category</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Non-identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">question_category</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">questions</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">question_category_id</td>
+<td class="tabdata" width="30%">question_category_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Relation_{308BF21B-BFF5-48A1-8B6C-98683CAACD6D}" class="item">
+<a name = "Relation_{308BF21B-BFF5-48A1-8B6C-98683CAACD6D}"></a>
+<div class="caption1"><p>Worker</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="25%">Caption</td>
+<td class="tabdata" width="47%">Worker</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Relationship Type</td>
+<td class="tabdata" width="47%">Non-identifying</td>
+<td class="tabhead" width="20%">Cardinality</td>
+<td class="tabdata" width="8%">1:N</td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Parent</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Mandatory Child</td>
+<td class="tabdata" width="47%">NO</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Parent Entity</td>
+<td class="tabdata" width="47%">branch</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+<tr>
+<td class="tabhead" width="25%">Child Entity</td>
+<td class="tabdata" width="47%">employee</td>
+<td class="tabdata"  colspan="2" width="20%"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Referential Integrity</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="26%"></td>
+<td class="tabhead" width="37%">Update</td>
+<td class="tabhead" width="37%">Delete</td>
+</tr>
+<tr>
+<td class="tabhead" width="26%">Parent</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+<td class="tabdata" width="37%">RESTRICT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="40%">Key Type</td>
+<td class="tabhead" width="30%">Parent Key</td>
+<td class="tabhead" width="30%">Child Key</td>
+</tr>
+<tr>
+<td class="tabdata" width="40%">Primary Key 'PK_<%OwnerName%>'</td>
+<td class="tabdata" width="30%">branch_id</td>
+<td class="tabdata" width="30%">branch_id</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>
