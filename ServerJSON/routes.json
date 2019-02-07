@@ -1,0 +1,7 @@
+{
+"/person/:person_id": "/person?person_id=:person_id",
+"/account/:person_id": "/account?person_id=:person_id",
+"/account_types/:type_code": "/account_types?type_code=:type_code",
+"/answer/:answer_id": "/answer?answer_id=:answer_id",
+"/branch/:branch_id": "/branch?branch_id=:branch_id",
+}
