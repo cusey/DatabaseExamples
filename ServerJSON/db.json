@@ -6,7 +6,7 @@
       "name_first": "Amanda",
       "name_last": "Rogers",
       "name_middle": "Jolie",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456774
     },
     {
@@ -15,7 +15,7 @@
       "name_first": "Lisa",
       "name_last": "Cook",
       "name_middle": "Mira",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456773
     },
     {
@@ -24,7 +24,7 @@
       "name_first": "Tyrell",
       "name_last": "Coleman",
       "name_middle": "Krish",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456772
     },
     {
@@ -33,7 +33,7 @@
       "name_first": "Holly",
       "name_last": "White",
       "name_middle": "Britney",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456771
     },
     {
@@ -42,7 +42,7 @@
       "name_first": "Gordon",
       "name_last": "Watson",
       "name_middle": "Nash",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456770
     },
     {
@@ -51,7 +51,7 @@
       "name_first": "Amber",
       "name_last": " Hayes",
       "name_middle": "Arianna",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456745
     },
     {
@@ -60,7 +60,7 @@
       "name_first": "Madison",
       "name_last": "Price",
       "name_middle": "Morgan",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456769
     },
     {
@@ -69,7 +69,7 @@
       "name_first": "Emma",
       "name_last": "Bennett",
       "name_middle": "Julia",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456768
     },
     {
@@ -78,7 +78,7 @@
       "name_first": "Hannah",
       "name_last": "Wood",
       "name_middle": "Destiny",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456767
     },
     {
@@ -87,7 +87,7 @@
       "name_first": "Olivia",
       "name_last": "Barnes",
       "name_middle": "Rachel",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456766
     },
     {
@@ -96,7 +96,7 @@
       "name_first": "Abigail",
       "name_last": "Ross",
       "name_middle": "Megan",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456765
     },
     {
@@ -105,7 +105,7 @@
       "name_first": "Isabella",
       "name_last": "Henderson",
       "name_middle": "Kaitlyn",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456764
     },
     {
@@ -114,7 +114,7 @@
       "name_first": "Ashley",
       "name_last": "Coleman",
       "name_middle": "Katherine",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456763
     },
     {
@@ -123,7 +123,7 @@
       "name_first": "Samantha",
       "name_last": "Jenkins",
       "name_middle": "Jennifer",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456762
     },
     {
@@ -132,7 +132,7 @@
       "name_first": "Elizabeth",
       "name_last": "Perry",
       "name_middle": "Savannah",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456761
     },
     {
@@ -141,7 +141,7 @@
       "name_first": "Alexis",
       "name_last": "Powell",
       "name_middle": "Ella",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456760
     },
     {
@@ -150,7 +150,7 @@
       "name_first": "Sarah",
       "name_last": "Long",
       "name_middle": "Alexandra",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456759
     },
     {
@@ -159,7 +159,7 @@
       "name_first": "Alyssa",
       "name_last": "Patterson",
       "name_middle": "Haley",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456758
     },
     {
@@ -168,7 +168,7 @@
       "name_first": "Grace",
       "name_last": "Hughes",
       "name_middle": "Allison",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456757
     },
     {
@@ -177,7 +177,7 @@
       "name_first": "Sophia",
       "name_last": "Flores",
       "name_middle": "Maria",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456756
     },
     {
@@ -186,7 +186,7 @@
       "name_first": "Taylor",
       "name_last": "Washington",
       "name_middle": "Nicole",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456755
     },
     {
@@ -195,7 +195,7 @@
       "name_first": "Brianna",
       "name_last": "Butler",
       "name_middle": "Mackenzie",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456754
     },
     {
@@ -204,7 +204,7 @@
       "name_first": "Lauren",
       "name_last": "Simmons",
       "name_middle": "Brooke",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456753
     },
     {
@@ -213,7 +213,7 @@
       "name_first": "Ava",
       "name_last": "Foster",
       "name_middle": "Makayla",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456752
     },
     {
@@ -222,7 +222,7 @@
       "name_first": "Kayla",
       "name_last": "Gonzales",
       "name_middle": "Kaylee",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456751
     },
     {
@@ -231,7 +231,7 @@
       "name_first": "Jessica",
       "name_last": "Bryant",
       "name_middle": "Lily",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456750
     },
     {
@@ -240,7 +240,7 @@
       "name_first": "Natalie",
       "name_last": "Alexander",
       "name_middle": "Stephanie",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456749
     },
     {
@@ -249,7 +249,7 @@
       "name_first": "Chloe\r\n",
       "name_last": "Russell",
       "name_middle": "Danielle",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456748
     },
     {
@@ -258,7 +258,7 @@
       "name_first": "Anna",
       "name_last": "Griffin",
       "name_middle": "Bailey",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456747
     },
     {
@@ -267,7 +267,7 @@
       "name_first": "Victoria",
       "name_last": "Diaz",
       "name_middle": "Isabel",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456746
     },
     {
@@ -276,7 +276,7 @@
       "name_first": "John",
       "name_last": "Smith",
       "name_middle": "Tim",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456789
     },
     {
@@ -285,7 +285,7 @@
       "name_first": "Joey",
       "name_last": "Johnson",
       "name_middle": "Dax",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456788
     },
     {
@@ -294,7 +294,7 @@
       "name_first": "Sam",
       "name_last": "Williams",
       "name_middle": "Jake",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456787
     },
     {
@@ -303,7 +303,7 @@
       "name_first": "Ryann",
       "name_last": "Jones",
       "name_middle": "Tyson",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456786
     },
     {
@@ -312,7 +312,7 @@
       "name_first": "Ty",
       "name_last": "Brown",
       "name_middle": "Russell",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456785
     },
     {
@@ -321,7 +321,7 @@
       "name_first": "Kate",
       "name_last": "Davis",
       "name_middle": "Ann",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456784
     },
     {
@@ -330,7 +330,7 @@
       "name_first": "Howard",
       "name_last": "Miller",
       "name_middle": "Olive",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456783
     },
     {
@@ -339,7 +339,7 @@
       "name_first": "Robert",
       "name_last": "Hall",
       "name_middle": "Justin",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456782
     },
     {
@@ -348,7 +348,7 @@
       "name_first": "Susan",
       "name_last": "Allen",
       "name_middle": "Racheal",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456781
     },
     {
@@ -357,7 +357,7 @@
       "name_first": "Tori",
       "name_last": "Young",
       "name_middle": "Vanessa",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456780
     },
     {
@@ -366,7 +366,7 @@
       "name_first": "Hillary",
       "name_last": "Cook",
       "name_middle": "Aliyah",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456779
     },
     {
@@ -375,7 +375,7 @@
       "name_first": "Mia",
       "name_last": "King",
       "name_middle": "Shayna",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456778
     },
     {
@@ -384,7 +384,7 @@
       "name_first": "Joslyn",
       "name_last": "Stewart",
       "name_middle": "Miranda",
-      "titlle": "Ms",
+      "title": "Ms",
       "social_security_number": 123456777
     },
     {
@@ -393,7 +393,7 @@
       "name_first": "Joel",
       "name_last": "Wood",
       "name_middle": "Mike",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456776
     },
     {
@@ -402,7 +402,7 @@
       "name_first": "Donald",
       "name_last": "Ross",
       "name_middle": "Logan",
-      "titlle": "Mr",
+      "title": "Mr",
       "social_security_number": 123456775
     }
   ],
@@ -2096,6 +2096,83 @@
       "person_id": "045",
       "id": "045"
     }
-  ]
+  ],
+  "employee":[
+  {
+    "id": "E001",
+    "salary": "20001",
+    "branch_id": "001"
+  },
+  {
+    "id": "E002",
+    "salary": "20002",
+    "branch_id": "001"
+  },
+  {
+    "id": "E003",
+    "salary": "20003",
+    "branch_id": "001"
+  },
+  {
+    "id": "E004",
+    "salary": "20004",
+    "branch_id": "002"
+  },
+  {
+    "id": "E005",
+    "salary": "20005",
+    "branch_id": "002"
+  },
+  {
+    "id": "E006",
+    "salary": "20006",
+    "branch_id": "001"
+  },
+  {
+    "id": "E007",
+    "salary": "20007",
+    "branch_id": "002"
+  },
+  {
+    "id": "E008",
+    "salary": "20008",
+    "branch_id": "002"
+  },
+  {
+    "id": "E009",
+    "salary": "20009",
+    "branch_id": "002"
+  },
+  {
+    "id": "E010",
+    "salary": "20010",
+    "branch_id": "003"
+  },
+  {
+    "id": "E011",
+    "salary": "20011",
+    "branch_id": "002"
+  },
+  {
+    "id": "E012",
+    "salary": "20012",
+    "branch_id": "002"
+  },
+  {
+    "id": "E013",
+    "salary": "20013",
+    "branch_id": "001"
+  },
+  {
+    "id": "E014",
+    "salary": "20014",
+    "branch_id": "001"
+  },
+  {
+    "id": "E015",
+    "salary": "20015",
+    "branch_id": "001"
+  }
+]
 
   }
