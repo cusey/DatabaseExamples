@@ -1,6 +1,6 @@
 ﻿/*
 Created: 1/14/2019
-Modified: 2/4/2019
+Modified: 2/11/2019
 Model: JerseyNationalBank
 Database: MySQL 5.7
 */
@@ -17,7 +17,7 @@ CREATE TABLE `person`
   `name_first` Char(20),
   `name_last` Char(20),
   `name_middle` Char(20),
-  `titlle` Char(2),
+  `title` Char(2),
   `social_security_number` Int(9) NOT NULL
 )
 ;
